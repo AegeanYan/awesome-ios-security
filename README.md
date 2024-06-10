@@ -15,28 +15,32 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 ## Contents
 
-- [Tools](#tools)
-  - [Reverse Engineering Tools](#reverse-engineering-tools)
-  - [Static Analysis Tools](#static-analysis-tools)
-  - [Dynamic Analysis Tools](#dynamic-analysis-tools)
-- [Tweaks](#tweaks)
-  - [Reverse Engineering Tweaks](#reverse-engineering-tweaks)
-  - [Jailbrek Detection Bypass Tweaks](#jailbrek-detection-bypass-tweaks)
-  - [SSL Pinning Bypass Tweaks](#ssl-pinning-bypass-tweaks)
-- [Frida Scripts](#frida-scripts)
-- [Courses](#courses)
-- [Books](#books)
-- [Sessions & Workshops](#sessions--workshops)
-- [Articles & Tutorials](#articles--tutorials)
-  - [Penetration Testing Articles](#penetration-testing-articles)
-  - [Reverse Engineering Articles](#reverse-engineering-articles)
-  - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
-  - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists & Cheatsheets](#checklists--cheatsheets)
-- [Labs](#labs)
-- [CTF](#ctf)
-- [Writeups](#writeups)
-- [Misc](#misc)
+- [Awesome iOS Security ](#awesome-ios-security-)
+  - [Contents](#contents)
+  - [Tools](#tools)
+    - [Reverse Engineering Tools](#reverse-engineering-tools)
+    - [Static Analysis Tools](#static-analysis-tools)
+    - [Dynamic Analysis Tools](#dynamic-analysis-tools)
+  - [Tweaks](#tweaks)
+    - [Reverse Engineering Tweaks](#reverse-engineering-tweaks)
+    - [Jailbrek Detection Bypass Tweaks](#jailbrek-detection-bypass-tweaks)
+    - [SSL Pinning Bypass Tweaks](#ssl-pinning-bypass-tweaks)
+  - [Frida Scripts](#frida-scripts)
+  - [Courses](#courses)
+  - [Books](#books)
+  - [Sessions \& Workshops](#sessions--workshops)
+  - [Articles \& Tutorials](#articles--tutorials)
+    - [Penetration Testing Articles](#penetration-testing-articles)
+    - [Reverse Engineering Articles](#reverse-engineering-articles)
+    - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
+    - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
+  - [Papers](#papers)
+  - [Checklists \& Cheatsheets](#checklists--cheatsheets)
+  - [Labs](#labs)
+  - [CTF](#ctf)
+  - [Writeups](#writeups)
+  - [Misc](#misc)
+  - [Contributing](#contributing)
 
 ## Tools
 
@@ -197,6 +201,78 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [SSL Pinning bypass in iOS application](https://sudonull.com/post/10665-SSL-Pinning-bypass-in-iOS-application)
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
 - [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
+
+## Papers
+
+
+[iOS, Your OS, Everybody's OS: Vetting and Analyzing Network Services of iOS Applications](https://www.usenix.org/conference/usenixsecurity20/presentation/tang)
+
+[PSiOS: bring your own privacy & security to iOS devices](https://dl.acm.org/doi/abs/10.1145/2484313.2484316)
+
+[Pios: Detecting privacy leaks in ios applications.](http://www.syssec-project.eu/m/page-media/3/egele-ndss11.pdf)
+
+[On the feasibility of {Large-Scale} infections of {iOS} devices](https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/wang_tielei)
+
+[A Markov adversary model to detect vulnerable iOS devices and vulnerabilities in iOS apps](https://www.sciencedirect.com/science/article/pii/S0096300316305549)
+
+[iris: Vetting private api abuse in ios applications](https://dl.acm.org/doi/abs/10.1145/2810103.2813675)
+
+[XiOS: Extended application sandboxing on iOS](https://dl.acm.org/doi/abs/10.1145/2714576.2714629)
+
+[Understanding {iOS-based} Crowdturfing Through Hidden {UI} Analysis](https://www.usenix.org/conference/usenixsecurity19/presentation/lee)
+
+[ProtectMyPrivacy: detecting and mitigating privacy leaks on iOS devices using crowdsourcing](https://dl.acm.org/doi/abs/10.1145/2462456.2464460)
+
+[Kobold: Evaluating decentralized access control for remote NSXPC methods on iOS](https://ieeexplore.ieee.org/abstract/document/9152695/)
+
+[Enpublic apps: Security threats using ios enterprise and developer certificates](https://dl.acm.org/doi/abs/10.1145/2714576.2714593)
+
+[Sandscout: Automatic detection of flaws in ios sandbox profiles](https://dl.acm.org/doi/abs/10.1145/2976749.2978336)
+
+[Dios: Dynamic privacy analysis of ios applications](https://opus4.kobv.de/opus4-fau/files/4755/report.pdf)
+
+[{ToothPicker}: Apple Picking in the {iOS} Bluetooth Stack](https://www.usenix.org/conference/woot20/presentation/heinze)
+
+[Following devil's footprints: Cross-platform analysis of potentially harmful libraries on android and ios](https://ieeexplore.ieee.org/abstract/document/7546512/)
+
+[An empirical study of sdk credential misuse in ios apps](https://ieeexplore.ieee.org/abstract/document/8719525/)
+
+[CRiOS: Toward large-scale iOS application analysis](https://dl.acm.org/doi/abs/10.1145/2994459.2994473)
+
+[Data exfiltration from Internet of Things devices: iOS devices as case studies](https://ieeexplore.ieee.org/abstract/document/7470257/)
+
+[iOracle: Automated evaluation of access control policies in iOS](https://dl.acm.org/doi/abs/10.1145/3196494.3196527)
+
+[idea: Static analysis on the security of apple kernel drivers](https://dl.acm.org/doi/abs/10.1145/3372297.3423357)
+
+[A first look at on-device models in ios apps](https://dl.acm.org/doi/abs/10.1145/3617177)
+
+[How usable are ios app privacy labels?](https://petsymposium.org/popets/2022/popets-2022-0106.php)
+
+[A peek under the hood of iOS malware](https://ieeexplore.ieee.org/abstract/document/7784623/)
+
+[An empirical study of privacy labels on the Apple iOS mobile app store](https://dl.acm.org/doi/abs/10.1145/3524613.3527813)
+
+[Automated binary analysis on ios: A case study on cryptographic misuse in ios applications](https://dl.acm.org/doi/abs/10.1145/3212480.3212487)
+
+[Code smells in ios apps: How do they compare to android?](https://ieeexplore.ieee.org/abstract/document/7972725/)
+
+[AppBeach: A static behavior checker for iOS mobile applications](http://cccisa.ccisa.org.tw/article/view/1929)
+
+[icryptotracer: Dynamic analysis on misuse of cryptography functions in ios applications](https://link.springer.com/chapter/10.1007/978-3-319-11698-3_27)
+
+[Goodbye tracking? Impact of iOS app tracking transparency and privacy labels](https://dl.acm.org/doi/abs/10.1145/3531146.3533116)
+
+[lios: Lifting ios apps for fun and profit](https://ieeexplore.ieee.org/abstract/document/9637076/)
+
+[iLibScope: Reliable Third-Party Library Detection for iOS Mobile Apps](https://arxiv.org/abs/2207.01837)
+
+[iHunter: Hunting Privacy Violations at Scale in the Software Supply Chain on iOS](https://www.usenix.org/system/files/sec24fall-prepub-85-liu-dexin.pdf)
+
+
+
+
+
 
 <a name="checklists-cheatsheets"></a>
 ## Checklists & Cheatsheets
